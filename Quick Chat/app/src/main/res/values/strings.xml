@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuickChat</string>
+    <string name="selected_image_preview">Selected image preview</string>
+    <string name="selected_file_icon">Selected file icon</string>
+    <string name="sample_file_name">file_name.jpg</string>
+    <string name="sample_file_type">image/jpeg</string>
+    <string name="sample_caption">Caption</string>
+</resources>
