@@ -131,17 +131,12 @@ This app uses two Groq models:
 
 Find this line (around line 86):
 ```java
-private static final String GROQ_API_KEY = "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";
+private static final String GROQ_API_KEY = "api key";
 ```
 
 Replace it with your actual key:
 ```java
 private static final String GROQ_API_KEY = "gsk_YOUR_ACTUAL_KEY_HERE";
-```
-
-✅ **Example**:
-```java
-private static final String GROQ_API_KEY = "gsk_aB1cD2eF3gH4iJ5kL6mN7oP8qR9sTuVwX";
 ```
 
 ### Step 2: Add Firebase Configuration
