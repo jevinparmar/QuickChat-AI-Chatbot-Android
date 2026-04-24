@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+    android:background="@drawable/bg_chat_history_item"
+    android:elevation="4dp"
+    android:gravity="center_vertical"
+    android:minHeight="88dp"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingTop="14dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="14dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvChatTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="How are you today?"
+            android:textColor="@color/qc_primary_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvChatPreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Last message preview appears here"
+            android:textColor="@color/qc_secondary_text"
+            android:textSize="13sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvChatTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:gravity="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="05 Apr, 11:59 pm"
+        android:textColor="@color/qc_secondary_text"
+        android:textSize="13sp" />
+</LinearLayout>

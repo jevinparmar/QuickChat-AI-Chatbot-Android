@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_card"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingStart="28dp"
+    android:paddingTop="28dp"
+    android:paddingEnd="28dp"
+    android:paddingBottom="24dp">
+
+    <ProgressBar
+        android:id="@+id/progressLoader"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/qc_accent_blue"
+        android:indeterminateTintMode="src_in" />
+
+    <TextView
+        android:id="@+id/tvLoaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Please wait..."
+        android:textColor="@color/qc_primary_text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Preparing your secure session"
+        android:textColor="@color/qc_secondary_text"
+        android:textSize="13sp" />
+
+</LinearLayout>
